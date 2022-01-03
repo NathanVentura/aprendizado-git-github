@@ -1,0 +1,1 @@
+Meu aprendizado do curso Javascript Full stack
