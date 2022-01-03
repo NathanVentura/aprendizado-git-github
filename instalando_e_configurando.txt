@@ -1,0 +1,15 @@
+Para instalação do Git acesse a página abaixo:
+
+https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
+
+Configurando o Git:
+
+git config --global user.name "Nathan Ventura"
+git config --global user.email "nathanventura07.gmail.com"
+git config --list : Para Mostrar as informações configuradas.
+
+
+Observações:
+
+o "--global" serve para que em qualquer projeto que você criar suas informações já fiquem configuradas.
+
