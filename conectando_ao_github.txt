@@ -1,0 +1,17 @@
+==========================================================================================
+
+Acesso a repositórios via https:
+
+git clone + o endereço do repositório desejado (Copia para sua maquina o respositório desejado)
+git remote add origin + o endereço do repositório desejado (Acessa o seu repositório no Github via https)
+
+--------------------------------------------------
+
+Upload e Download de arquivos no Github
+
+git push origin master (Comando para subir o código para o seu repositório)
+git pull origin master (Faz o Download da alteração da branch master do repositório )
+.gitignore (Quando você cria esse arquivo no seu projeto ele ignora qualquer arquivo que você digitar o nome e a extensão, 
+por exemplo: " app.js ")
+
+===========================================================================================
