@@ -1,0 +1,48 @@
+Configurações básicas ao instalar o Git:
+
+git config --global user.name "seu nome"
+git config --global user.email "seu email"
+
+[ --global é usado para que seja usado em todos os projetos que você criar]
+
+---------------------------------------------------------------------------
+
+Comandos básicos:
+
+git init (cria um novo repositório e configura tudo o que é necessário para iniciar os projetos)
+git config --list (Mostra as configurações atuais como nome e email por exemplo - Use "q" para sair da tela)
+git status (Mostra se há algum arquivo que está no HEAD ou se ainda não foi adicionado no HEAD.)
+git log (Lista tudo o que ocorreu nos commits realizados)
+git diff (Mostra o que foi alterado nos arquivos porém, funciona apenas antes de adicionar ao HEAD)
+git add . (Salva tudo o que foi alterad como um rascunho)
+git add + nome do arquivo (Adiciona o arquivo ao HEAD (é como um rascunho) após isso você pode usar o commit)
+git commit -m + 'Descrição do arquivo informando o que foi feito' (realiza o commit)
+git reset HEAD + nome do arquivo (Retira o arquivo do HEAD)
+git checkout -- + nome do arquivo (Muda )
+git branch (Mostra quantas branch(Ramo) você tem no seu projeto)
+git branch + nome da branch que quer criar (Cria una branch nova)
+git branch -D + nome da branch (Deleta a branch desejada)
+git checkout + nome da branch que você quer acessar (Alterna entre as branch do projeto.)
+git checkout -b + nome da branch que quer criar (Cria uma branch e já alterna para essa branch que acabou de criar)
+git merge + nome da branch que quer trazer as mudanças para outra branch (Envia as mudanças de uma branch para outra. 
+Apenas a branch alvo sofrerá alterações)
+
+-----------------------------------------------------------------------------
+
+Acesso a repositórios via https:
+
+git clone + o endereço do repositório desejado (Copia para sua maquina o respositório desejado)
+git remote add origin + o endereço do repositório desejado (Acessa o seu repositório no Github via http)
+
+-----------------------------------------------------------------------------
+
+Upload e Download de arquivos no Github
+
+git push origin master (Comando para subir o código para o seu repositório)
+git pull origin master (Faz o Download da alteração da branch master do repositório )
+.gitignore (Quando você cria esse arquivo no seu projeto ele ignora qualquer arquivo que você digitar o nome e a extensão, 
+por exemplo: " app.js ")
+-----------------------------------------------------------------------------
+
+Informação importante: Sempre que criar um novo projeto git, não crie uma branch antes de realizar o primeiro commit, 
+pois a branch master passa a existir apenas depois do primeiro commit.
